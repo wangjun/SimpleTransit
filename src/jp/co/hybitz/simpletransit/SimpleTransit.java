@@ -148,9 +148,8 @@ public class SimpleTransit extends BaseActivity implements SimpleTransitConst {
         menu.add(0, MENU_ITEM_TIME_TABLE, 5, "駅・時刻表");
         menu.add(0, MENU_ITEM_JORUDAN_LIVE, 6, "ジョルダンライブ！");
         menu.add(0, MENU_ITEM_VOICE, 7, "音声入力");
-        menu.add(0, MENU_ITEM_SEARCH_NEAR_STATIONS, 8, "最寄駅検索");
-        menu.add(0, MENU_ITEM_PREFERENCES, 9, "設定");
-        menu.add(0, MENU_ITEM_QUIT, 10, "終了");
+        menu.add(0, MENU_ITEM_PREFERENCES, 8, "設定");
+        menu.add(0, MENU_ITEM_QUIT, 9, "終了");
         return super.onCreateOptionsMenu(menu);
     }
 

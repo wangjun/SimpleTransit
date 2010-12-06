@@ -57,6 +57,7 @@ public class TravelDelayListActivity extends ListActivity implements SimpleTrans
         TravelDelayItem item = (TravelDelayItem) l.getItemAtPosition(position);
         if (item.getCategory() != null) {
             TravelDelayQuery query = new TravelDelayQuery();
+            query.setEncoding(TravelDelayUtils.getEncoding());
             query.setCategory(item.getCategory());
             new TravelDelayTask(this).execute(query);
         }
